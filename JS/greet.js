@@ -5,15 +5,15 @@ function time() {
     var d = new Date();
     var h = d.getHours();
     if(h >= 5 && h < 12){
-        img.src = 'sunset.png';
+        img.src = '../Assets/sunset.png';
         greet.textContent = "Morning";
     }
     else if(h >= 12 && h < 17){
-        img.src = 'sun.png';
+        img.src = '../Assets/sun.png';
         greet.textContent = "Afternoon";
     }
     else{
-        img.src = 'moon.png';
+        img.src = '../Assets/moon.png';
         greet.textContent = "Evening";
     }
 }

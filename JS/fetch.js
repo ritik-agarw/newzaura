@@ -26,7 +26,7 @@ xhr1.onload = function () {
                 var news = `<div class="card">
                                 <div class="card-inner">
                                     <div class="card-front">
-                                        <img onerror="this.src='error.png';" src="${element["urlToImage"]}" alt="">
+                                        <img onerror="this.src='Assets/error.png';" src="${element["urlToImage"]}" alt="">
                                         <p>${element["title"]}</p>
                                     </div>
                                     <div class="card-back">
@@ -62,7 +62,7 @@ xhr2.onload = function () {
                 var news = `<div class="card">
                 <div class="card-inner">
                     <div class="card-front">
-                        <img onerror="this.src='error.png';" src="${element["urlToImage"]}" alt="">
+                        <img onerror="this.src='Assets/error.png';" src="${element["urlToImage"]}" alt="">
                         <p>${element["title"]}</p>
                     </div>
                     <div class="card-back">
@@ -98,7 +98,7 @@ xhr3.onload = function () {
                 var news = `<div class="card">
                 <div class="card-inner">
                     <div class="card-front">
-                        <img onerror="this.src='error.png';" src="${element["urlToImage"]}" alt="">
+                        <img onerror="this.src='Assets/error.png';" src="${element["urlToImage"]}" alt="">
                         <p>${element["title"]}</p>
                     </div>
                     <div class="card-back">
@@ -134,7 +134,7 @@ xhr4.onload = function () {
                 var news = `<div class="card">
                 <div class="card-inner">
                     <div class="card-front">
-                        <img onerror="this.src='error.png';" src="${element["urlToImage"]}" alt="">
+                        <img onerror="this.src='Assets/error.png';" src="${element["urlToImage"]}" alt="">
                         <p>${element["title"]}</p>
                     </div>
                     <div class="card-back">
@@ -170,7 +170,7 @@ xhr5.onload = function () {
                 var news = `<div class="card">
                 <div class="card-inner">
                     <div class="card-front">
-                        <img onerror="this.src='error.png';" src="${element["urlToImage"]}" alt="">
+                        <img onerror="this.src='Assets/error.png';" src="${element["urlToImage"]}" alt="">
                         <p>${element["title"]}</p>
                     </div>
                     <div class="card-back">
@@ -206,7 +206,7 @@ xhr6.onload = function () {
                 var news = `<div class="card">
                 <div class="card-inner">
                     <div class="card-front">
-                        <img onerror="this.src='error.png';" src="${element["urlToImage"]}" alt="">
+                        <img onerror="this.src='Assets/error.png';" src="${element["urlToImage"]}" alt="">
                         <p>${element["title"]}</p>
                     </div>
                     <div class="card-back">

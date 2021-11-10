@@ -465,7 +465,7 @@ aside .nav__item-icon i {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("wave.png");
+  background: url("../Assets/wave.png");
   background-size: 1000px 100px;
 }
 
