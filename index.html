@@ -1,12 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewzAura|News Website</title>
+    <title>NewzAura | Latest News Website</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
+<script src="https://kit.fontawesome.com/791069c6aa.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
 <body>
-    <h1 style="text-align: center;">Welcome to NewzAura</h1>
+    <nav>
+        <div class="greeting">
+            <img id="time" src="" />
+            <span>Good, <span id="greet"></span></span>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="">
+            Newzaura
+        </div>
+        <div class="su">
+            <div class="search">
+                <input type="text" placeholder="Search..">
+            </div>
+            <div class="user">
+                <img src="user.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <aside onmouseover="smallCard()" onmouseleave="bigCard()">
+        <div class="nav__container">
+            <a href="#" class="nav__item active">
+                <div class="nav__item-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="nav__item-name">Business</div>
+            </a>
+            <a href="#enter" class="nav__item" onclick="activate()">
+                <div class="nav__item-icon">
+                    <i class="fas fa-film"></i>
+                </div>
+                <div class="nav__item-name">Entertainment</div>
+            </a>
+            <a href="#hlt" class="nav__item">
+                <div class="nav__item-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="nav__item-name">Health</div>
+            </a>
+            <a href="#sci" class="nav__item">
+                <div class="nav__item-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <div class="nav__item-name">Science</div>
+            </a>
+            <a href="#spt" class="nav__item">
+                <div class="nav__item-icon">
+                    <i class="fas fa-volleyball-ball"></i>
+                </div>
+                <div class="nav__item-name">Sports</div>
+            </a>
+            <a href="#tech" class="nav__item">
+                <div class="nav__item-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="nav__item-name">Technology</div>
+            </a>
+        </div>
+    </aside>
+
+    <div class="main" id="main-body">
+        <h1 id="buss">Business</h1>
+        <div class="category" id="business">
+        </div>
+
+        <hr id="enter">
+
+        <h1>Entertainment</h1>
+        <div class="category" id="entertainment">
+        </div>
+
+        <hr id="hlt">
+
+        <h1>Health</h1>
+        <div class="category" id="health">
+        </div>
+
+        <hr id="sci">
+
+        <h1>Science</h1>
+        <div class="category" id="science">
+        </div>
+
+        <hr id="spt">
+
+        <h1>Sports</h1>
+        <div class="category" id="sports">
+        </div>
+
+        <hr id="tech">
+
+        <h1>Technology</h1>
+        <div class="category" id="technology">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" >
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" >
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" >Home</a></li>
+          <li class="menu__item"><a class="menu__link" >About</a></li>
+          <li class="menu__item"><a class="menu__link" >Services</a></li>
+          <li class="menu__item"><a class="menu__link" >Team</a></li>
+          <li class="menu__item"><a class="menu__link" >Contact</a></li>
+    
+        </ul>
+        <p>&copy;2021 NewzAura | All Rights Reserved</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  
+    <script src="fetch.js"></script>
+    <script src="greet.js"></script>
+    <script src="design.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
